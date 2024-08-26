@@ -1,12 +1,25 @@
-package beans;
+package DTO;
 
 public class Usuario {
+	private String id;
 	private String nome;
 	private String email;
 	private String senha;
-	
+
 	public Usuario() {
-		
+
+	}	
+
+	public boolean validaLogin(String email, String senha) {
+		return true;
+	}
+
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
 	}
 
 	public String getNome() {
@@ -32,6 +45,5 @@ public class Usuario {
 	public void setSenha(String senha) {
 		this.senha = senha;
 	}
-	
-	
+
 }

@@ -19,7 +19,8 @@ body{
 
 	height: 100vh;
 	width: 100%;
-	background-color: Orange;
+	background: rgb(193,34,195);
+	background: linear-gradient(0deg, rgba(193,34,195,1) 0%, rgba(45,77,253,1) 100%);
 }
 
 form{
@@ -27,9 +28,8 @@ form{
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
-	
-	border-radius: 5px;
-	background-color: WhiteSmoke;
+	background-color: #D3D3D390;
+	border-radius: 10px;
 	padding: 35px 50px;
 	gap: 10px;
 	width: 25%;
@@ -48,6 +48,7 @@ form input{
 form h1{
 	padding: 15px;
 	font-size: 24px;
+	color: white;
 }
 
 

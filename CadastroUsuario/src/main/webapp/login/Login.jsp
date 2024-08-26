@@ -10,9 +10,14 @@
 </head>
 <body>
 	<jsp:setProperty property="*" name="usuario"/>
+		
+	<div>
+		<form action="../ServletLoginUsuario" method="post">
+	 		<input type="email" id="email" name="email"> 
+	 		<input type="password" id="senha" name="senha"> 
+	 		<input type="submit">
+		</form>
+	</div>
 	
-	<h1>${param.nome}</h1>	
-	<h1>${param.email}</h1>
-	<h1>${param.senha}</h1>
 </body>
 </html>
